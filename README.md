@@ -27,6 +27,15 @@ composer update
 ```
 
 4. Create `monitor` database (in `phpmyadmin`) then import file `monitor.sql`
+    - Click `New`
+![image](https://user-images.githubusercontent.com/49550150/150313116-bf878186-a805-4bb0-a8b7-19bd0f5cf216.png)
+
+    - Type name of database (monitor) then click `Create`
+![image](https://user-images.githubusercontent.com/49550150/150313285-9d06f3d6-627c-4c02-a4c9-fd84320230c8.png)
+
+    - Choose `monitor` database, click `Import` tab, click `Choose file` and browse to `monitor.sql`, then click `Go` to import database
+![image](https://user-images.githubusercontent.com/49550150/150313549-2fd655d4-8627-4cd3-9f56-7ec549c27c62.png)
+
 
 5. Change file name `env.txt` to `.env`
 
